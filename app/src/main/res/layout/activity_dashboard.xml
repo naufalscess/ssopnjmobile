@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DASHBOARD"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="6dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Politeknik Negeri Jakarta" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:layout_marginLeft="-20dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/roundedshape"
+                android:padding="30dp"
+                android:paddingLeft="20dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/search2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_centerInParent="true"
+                android:text="Search"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="110dp">
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="@drawable/roundedshape"
+                android:padding="30dp"
+                app:srcCompat="@drawable/about" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView5"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="2dp"
+                android:text="About"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="80dp">
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/contact"
+                android:padding="30dp"
+                android:background="@drawable/roundedshape" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView6"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="2dp"
+                android:text="Contact"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

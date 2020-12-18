@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.ssopnj">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,9 +11,12 @@
         android:roundIcon="@drawable/logo_politeknik_negeri_jakarta"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".ssoActivity"></activity>
-        <activity android:name=".login_activity">
+        <activity android:name=".login_activity"></activity>
+            <activity android:name=".splashScreenActivity" />
+            <activity android:name=".MainActivity" />
+            <activity android:name=".ssoActivity" />
+            <activity android:name=".dashboardActivity" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
