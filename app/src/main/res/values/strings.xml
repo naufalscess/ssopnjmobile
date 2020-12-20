@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SSO PNJ</string>
+    <string name="search_elements">Search Elements</string>
+    <string name="course">Course</string>
+    <string name="teacher">Teacher</string>
+    <string name="study">Study</string>
+    <string name="date">Date</string>
+    <string name="trending">TRENDING</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typsetting industry.</string>
 </resources>

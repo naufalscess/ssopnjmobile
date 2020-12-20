@@ -1,14 +1,12 @@
 package com.android.ssopnj;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class dashboardActivity extends AppCompatActivity {
-    private ImageView nearbyMenu;
     private ImageView contactMenu;
     private ImageView searchMenu, aboutMenu;
 
@@ -17,11 +15,11 @@ public class dashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         contactMenu= (ImageView) findViewById(R.id.imageView5);
-        contactMenu.setOnClickListener(this);
+        contactMenu.setOnClickListener((View.OnClickListener) this);
         searchMenu= (ImageView) findViewById(R.id.imageView3);
-        searchMenu.setOnClickListener(this);
+        searchMenu.setOnClickListener((View.OnClickListener) this);
         aboutMenu = (ImageView) findViewById(R.id.imageView6);
-        aboutMenu.setOnClickListener(this);
+        aboutMenu.setOnClickListener((View.OnClickListener) this);
 
 
     }

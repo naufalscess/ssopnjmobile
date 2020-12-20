@@ -11,18 +11,18 @@
         android:roundIcon="@drawable/logo_politeknik_negeri_jakarta"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login_activity"></activity>
-            <activity android:name=".splashScreenActivity" />
-            <activity android:name=".MainActivity" />
-            <activity android:name=".ssoActivity" />
-            <activity android:name=".dashboardActivity" />
+        <activity android:name=".aboutActivity"></activity>
+        <activity android:name=".login_activity" />
+        <activity android:name=".splashScreenActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ssoActivity" />
+        <activity android:name=".dashboardActivity" />
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
     </application>
 
 </manifest>
