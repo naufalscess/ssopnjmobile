@@ -23,10 +23,4 @@ public class dashboardActivity extends AppCompatActivity {
 
 
     }
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-                break;
-        }
-    }
 }
